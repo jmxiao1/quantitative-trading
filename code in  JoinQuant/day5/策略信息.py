@@ -24,5 +24,6 @@ def handle_data(context, data):
     #总权益的累计收益
     log.info(context.portfolio.returns)
     #获取仓位subportfolios[0]的可用资金
+    log.info(context.subportfolios[0].available_cash)
     
     
